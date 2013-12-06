@@ -2,6 +2,7 @@
 #include <cmath>
 using namespace std;
 
+// Combinations fn copied from internet
 int Combinations(unsigned int n, unsigned int k)
 {
 	if (k > n)
