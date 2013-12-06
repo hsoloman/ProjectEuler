@@ -15,8 +15,6 @@ int number_of_divisors(int input){
 	return result;
 }
 
-
-
 int q12() {
 	int triangle = 0;
 	int index = 0;
