@@ -10,7 +10,8 @@ int main(){
 
     ifstream file("013-input.txt");
     vector<string> numbers;
-	{	string temp;
+	{	
+		string temp;
 		while( getline(file, temp)){numbers.push_back(temp);}
 	}
     
