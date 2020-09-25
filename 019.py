@@ -56,4 +56,5 @@ while after_or_same(end_date, start_date):
         sundays_on_first_of_month += 1
         print(start_date.strftime('%Y-%m-%d'), dow[day])
 
+# Verified answer: 171
 print("sum ", sundays_on_first_of_month)
